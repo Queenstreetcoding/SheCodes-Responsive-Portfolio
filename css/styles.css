@@ -1,12 +1,56 @@
-/*
-font-family: 'Crimson Text', serif;
-font-family: 'Poppins', sans-serif;
-*/
+:root {
+    --darkpurple-color: #57385c;
+    --redpurple-color: #a75265;
+    --redorange-color: #ec7263;
+    --orangeyellow-color: #febe7e; 
 
-h1 {
-    font-family: 'Crimson Text', serif;
+    --heading-fontfamily: 'Crimson Text', serif;
+    --default-fontfamily: 'Poppins', sans-serif;
 }
 
-p {
-    font-family: 'Poppins', sans-serif
+h1 {
+    color: var(--orangeyellow-color);
+    font-family: var(--heading-fontfamily);
+    font-weight: 600;
+    font-size: 96px;
+}
+
+h2 {
+    color: var(--redpurple-color);
+    font-family: var(--default-fontfamily);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main-header {
+    padding: 160px 20px;
+    background-color: var(--darkpurple-color);
+    text-align: center;
+}
+
+.main-header p {
+    color: var(--redpurple-color);
+    margin: 0 auto;
+    font-family: var(--default-fontfamily);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.btn-branding {
+    padding: 15px 30px;
+    background-color: var(--redorange-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.btn-branding:hover {
+    padding: 15px 30px;
+    background-color: var(--darkpurple-color);
+    border-color: var(--redorange-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
 }
