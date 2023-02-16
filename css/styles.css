@@ -17,9 +17,15 @@ h1 {
 
 h2 {
     color: var(--redpurple-color);
-    font-family: var(--default-fontfamily);
-    font-weight: 400;
-    font-size: 20px;
+    font-family: var(--heading-fontfamily);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1,5;
 }
 
 .main-header {
@@ -34,6 +40,14 @@ h2 {
     font-family: var(--default-fontfamily);
     font-weight: 500;
     font-size: 30px;
+}
+
+.main-header h2 {
+    color: var(--redpurple-color);
+    margin: 0 auto;
+    font-family: var(--heading-fontfamily);
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .btn-branding {
@@ -53,4 +67,33 @@ h2 {
     color: white;
     font-size: 18px;
     line-height: 27px;
+}
+
+.btn-branding-outline {
+    padding: 13px 27px;
+    font-size: 16px;
+    line-height: 27px;
+    border-radius: 4px;
+    color: var(--darkpurple);
+    border-color: var(--darkpurple);
+}
+
+.btn-branding-outline:hover {
+    padding: 13px 27px;
+    font-size: 16px;
+    line-height: 27px;
+    border-radius: 4px;
+    color: white;
+    border-color: var(--darkpurple);
+    background-color: var(--darkpurple-color);
+}
+
+.project-description {
+    padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+    .project-description {
+        padding: 0;
+    }
 }
