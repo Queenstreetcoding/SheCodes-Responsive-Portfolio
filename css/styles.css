@@ -8,6 +8,25 @@
     --default-fontfamily: 'Poppins', sans-serif;
 }
 
+@media (max-width: 900px) {
+    .main-header {
+        padding: 100px 20px;
+    }
+
+    .project-description {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+}
+
 h1 {
     color: var(--orangeyellow-color);
     font-family: var(--heading-fontfamily);
@@ -47,7 +66,7 @@ p {
     margin: 0 auto;
     font-family: var(--heading-fontfamily);
     font-weight: 500;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .btn-branding {
@@ -90,10 +109,6 @@ p {
 
 .project-description {
     padding: 120px 60px;
+    line-height: 30px;
 }
 
-@media (max-width: 960px) {
-    .project-description {
-        padding: 0;
-    }
-}
