@@ -88,6 +88,12 @@ p {
     line-height: 27px;
 }
 
+.best-projects {
+    padding: 20px;
+    background-color: var(--redpurple-color);
+    color: var(--orangeyellow-color);
+}
+
 .btn-branding-outline {
     padding: 13px 27px;
     font-size: 16px;
