@@ -8,25 +8,6 @@
     --default-fontfamily: 'Poppins', sans-serif;
 }
 
-@media (max-width: 900px) {
-    .main-header {
-        padding: 100px 20px;
-    }
-
-    .project-description {
-        padding: 0 20px;
-        text-align: center;
-    }
-
-    h1 {
-        font-size: 60px;
-    }
-
-    h2 {
-        font-size: 44px;
-    }
-}
-
 h1 {
     color: var(--orangeyellow-color);
     font-family: var(--heading-fontfamily);
@@ -118,3 +99,22 @@ p {
     line-height: 30px;
 }
 
+@media (max-width: 900px) {
+    .main-header {
+        padding: 100px 20px;
+    }
+
+    .project-description {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        padding: 30px;
+        font-size: 44px;
+    }
+}
