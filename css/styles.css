@@ -88,6 +88,10 @@ img{
     font-family: var(--default-fontfamily);
 }
 
+.about-section p{
+    font-family: var(--default-fontfamily);
+}
+
 .best-projects {
     padding: 20px;
     background-color: var(--redpurple-color);
