@@ -27,6 +27,13 @@ h3 {
     font-family: var(--default-fontfamily);
 }
 
+h4{
+    color: var(--orangeyellow-color);
+    font-family: var(--heading-fontfamily);
+    font-size: 40px;
+    font-weight: 600;
+}
+
 p {
     font-weight: normal;
     font-size: 16px;
@@ -170,6 +177,48 @@ nav li{
     line-height: 30px;
 }
 
+footer{
+    margin: 60px 0;
+}
+
+footer .contact-box{
+    padding: 30px 120px;
+    background-color: var(--darkpurple-color);
+    border-radius: 10px;
+}
+
+footer .contact-box p{
+    margin: 0 auto;
+    color: var(--redorange-color);
+}
+
+footer .email-link{
+    font-family: var(--default-fontfamily);
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover{
+    color: var(--redorange-color);
+}
+
+footer .social-links a{
+    margin: 0 20px;
+    padding: 10px 15px;
+    color: var(--redpurple-color);
+    background-color: var(--orangeyellow-color);
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover{
+    color: var(--orangeyellow-color);
+    background-color: var(--redpurple-color);
+}
+
 @media (max-width: 900px) {
     .main-header {
         padding: 100px 20px;
@@ -189,6 +238,10 @@ nav li{
         font-size: 44px;
     }
 
+    h4{
+        font-size: 18px;
+    }
+
     nav li{
         margin-right: 10px;
         font-size: 13px;
@@ -202,5 +255,9 @@ nav li{
     .content{
         text-align: center;
         padding: 0;
+    }
+
+    footer .contact-box{
+        padding: 30px;
     }
 }
