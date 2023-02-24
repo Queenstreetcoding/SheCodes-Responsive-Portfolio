@@ -120,7 +120,7 @@ nav li{
 
 .content {
     margin: 30px;
-    padding: 160px 20px;
+    padding: 100px 20px;
 }
 
 .content p{
@@ -196,7 +196,7 @@ footer .email-link{
     font-family: var(--default-fontfamily);
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 
